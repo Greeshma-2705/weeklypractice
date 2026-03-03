@@ -10,9 +10,7 @@ public class BasicCalculator {
         System.out.print("Enter second number: ");
         double num2 = input.nextDouble();
 
-        System.out.println("Addition = " + (num1 + num2));
-        System.out.println("Subtraction = " + (num1 - num2));
-        System.out.println("Multiplication = " + (num1 * num2));
-        System.out.println("Division = " + (num1 / num2));
+        System.out.println("The addition, subtraction, multiplication, and division value of 2 numbers " + num1 + " and " + num2 + " is " + (num1+num2) + ", " + (num1-num2) + ", " + num1*num2 + " and " + num1/num2);     
+    
     }
 }
