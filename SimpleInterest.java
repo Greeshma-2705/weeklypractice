@@ -15,6 +15,7 @@ public class SimpleInterest {
 
         double si = (principal * rate * time) / 100;
 
-        System.out.println("Simple Interest is " + si);
+        System.out.println("Simple Interest is " + si+","+ "for ptincipal" + principal+","+"rate of interest"+rate+","+"and Time"+ time);
     }
+
 }
